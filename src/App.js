@@ -1,8 +1,7 @@
 import React, { useState, useMemo, useCallback, useEffect } from 'react';
 import { FileUp, Search, Loader2, X, FileText, Star } from 'lucide-react';
 
-// pdf.js is loaded from the CDN in index.html
-const pdfjsLib = window.pdfjsLib;
+
 
 // --- Helper Components ---
 
